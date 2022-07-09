@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: install httrack
-        run: apt-get -y install httrack
+        run: sudo apt-get -y install httrack
       - name: use httrack
         run: httrack "https://ya.ru"
       - name: Deploy
