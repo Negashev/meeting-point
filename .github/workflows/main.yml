@@ -17,7 +17,7 @@ jobs:
           image: bios/docker-httrack
           run: httrack "https://ya.ru"
       - name: check folder # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: ls -la
+        run: ls -la /github/workspace
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
