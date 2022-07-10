@@ -16,7 +16,7 @@ jobs:
       - name: check httrack
         run: ls -la *
       - name: check httrack
-        run: echo 1
+        run: echo 2
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
