@@ -13,6 +13,8 @@ jobs:
         run: sudo apt-get -y install httrack
       - name: use httrack
         run: httrack "http://project5809994.tilda.ws"
+      - name: check httrack
+        run: ls -la *
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
