@@ -12,8 +12,8 @@ jobs:
       - name: install httrack
         run: sudo apt-get -y install httrack
       - name: use httrack
-        run: httrack "https://glamping-association.ru"
+        run: httrack "http://project5809994.tilda.ws"
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: glamping-association.ru
+          folder: project5809994.tilda.ws
